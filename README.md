@@ -14,9 +14,9 @@ If you want to use MSMTP:
 
 `sudo nano /etc/msmtprc`
 
-Add:
+Add this and change by your email account:
 
-`# Default settings
+# Default settings
 defaults
 auth           on
 tls            on
@@ -30,7 +30,7 @@ host           smtp.gmail.com
 port           587
 from           your@gmail.com
 user           your@gmail.com
-password       yourpassword`
+password       yourpassword
 
 CTRL+X 
 
