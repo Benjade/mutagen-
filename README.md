@@ -17,8 +17,8 @@ If you want to use MSMTP:
 Add this and change by your email account:
 
 
-defaults
-auth           on
+defaults\n
+auth           on\n
 tls            on
 tls_starttls   on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt
