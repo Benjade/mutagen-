@@ -17,18 +17,18 @@ If you want to use MSMTP:
 Add this and change by your email account:
 
 
-defaults\n
-auth           on\n
-tls            on
-tls_starttls   on
-tls_trust_file /etc/ssl/certs/ca-certificates.crt
-logfile        /var/log/msmtp.log
-account        default
-host           smtp.gmail.com
-port           587
-from           your@gmail.com
-user           your@gmail.com
-password       yourpassword
+defaults<br>
+auth           on<br>
+tls            on<br>
+tls_starttls   on<br>
+tls_trust_file /etc/ssl/certs/ca-certificates.crt<br>
+logfile        /var/log/msmtp.log<br>
+account        default<br>
+host           smtp.gmail.com<br>
+port           587<br>
+from           your@gmail.com<br>
+user           your@gmail.com<br>
+password       yourpassword<br>
 
 -----------
 
