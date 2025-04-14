@@ -16,15 +16,13 @@ If you want to use MSMTP:
 
 Add this and change by your email account:
 
-# Default settings
+
 defaults
 auth           on
 tls            on
 tls_starttls   on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt
 logfile        /var/log/msmtp.log
-
-# Default email account
 account        default
 host           smtp.gmail.com
 port           587
@@ -32,7 +30,7 @@ from           your@gmail.com
 user           your@gmail.com
 password       yourpassword
 
-CTRL+X 
+-----------
 
 Test if email work:
 
